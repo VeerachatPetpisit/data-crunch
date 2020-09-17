@@ -4,6 +4,8 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
+st.set_option('deprecation.showfileUploaderEncoding', False)
+
 st.write("""
 # Penguin Prediction App
 
